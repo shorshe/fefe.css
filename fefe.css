@@ -9,6 +9,7 @@ body {
 
 a {
   color: #2e9ec9;
+  word-wrap: break-word;
 }
 
 h2 {
@@ -94,6 +95,11 @@ blockquote {
   font-style: italic;
   padding-left: 10px;
   margin-left: 20px;
+}
+
+pre {
+  font-size: 0.9em;
+  overflow-x: auto;
 }
 
 /* For Screens smaller than 800px width. Smaller margins on boxes and flexible widths */
